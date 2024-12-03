@@ -6,7 +6,7 @@ const LeadsList = () => {
 
   useEffect(() => {
     const fetchLeads = async () => {
-      const response = await api.get('/leads');
+      const response = await api.get('/leads/data');
       setLeads(response.data.leads);
     };
     fetchLeads();

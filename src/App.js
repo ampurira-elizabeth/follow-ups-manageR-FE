@@ -7,8 +7,9 @@ import LeadsList from "./components/LeadsList";
 import CreateLead from "./components/CreateLead";
 
 function App() {
-  return function App() {
+  // return function App() {
     return (
+      // <header className="App-header">hellooooo</header>
       <AuthProvider>
         <Router>
           <div>
@@ -21,7 +22,7 @@ function App() {
       </AuthProvider>
       
     );
-  };
+  // };
 }
 
 export default App;
